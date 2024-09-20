@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
     <title>Acme App</title>
   </head>
   <body>
-    <!-- Start Coding Here -->
+    <div class="container">
+      <div class="box box1">
+        <p class="icon">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA4VJREFUWEfll2nITVEUhp9PyZiUMX4YMmXIGJJ5iCgJET8MJaGUlAyl+GcMpSRlKmRKMiYyZCpKSJEhswzJPPwwnPdr7dvuOOfcc+69X31l/bn37GGdd7/r3WutU0Yls7JKhof/AlBNYDjQBegMtAdaWySeAi+B1/b7ENgEfHORKjVD44H1QNMMUphjoMq3lApQO3M6MAMQt3QfMLGUDI0AToSAvAI2AjeBB8A9m28E1AP6BCxusbEbQLdSAYoCszpwvszXRQRrCulzG38TsCugRYesX3DSU0B18/UF6A/oxGnsj7coJ51CNdQVuADUNqdf7WZdsucqwBC7ZU+Ao8D3EMqCATUAOpiz38BH4IxpQcPvgVHAVe+FYm6Y9/zCrv8nbywTIMV4OjAB6JTAv3KKwqR84qxXCJwbnwdssAcJ+539/wzUSdLQVGB7ChF8AHoC90NrZ/l5xZvbDGhO1jsI8RX7r/1t4gDNB9ZGgNFpHplmWgC3gmw7O0bAErv0FTY/AS4AVtmCPcDkOEDSR44+YCmwA3iWgjF/ST4NXQe624a5lrPKH8O3bKtpxzlfASzOCEbLk27ZOOCA57Mh8DaOoRrAMWCQt6FQUFHn0MvvBIzUt8mdgDSbs6g8VC0Q3UnAr0trAMW9GBOIi0BbcyJW1A2ozCQC0qSyr5gaXCKmGgNnARVh2Q9LF9fCJ0zK1FUNlJ/gCmFKdeoy0NJe/jPIU6qB56Lozlc6igWlBKsU4MCofIyMAxN1y6JAC9QhKw9uPg1TzYLLcR7Qr0xghhpbsVrMx5C/8TAw2htYGWhhUYLKpY8eNq/iqzBJ1ImWBZAcHQyy9NiUQldBbWJrxwA6UF5LAqQSoNCowKqFcLYfUO/sLC5PqQFzvbU6RFe7CmKoudWpugZmQAjUXgOaBOqxpx8V4X+ueBSyOIZ06oXeBjEUBrU76JUnxTCljJ/7tAm6Bx3QZzmTqAVSdLv4u81RoHb5lRpwQle3eNo2ClitvOKxBVEMdQRuxziQqH39aJm6gSkhptRZLrGx46GUkVlDuhHKO77plMtN5HpZ2LYB07xBrdcXrEy9jnqeVBbFkFrNdd7uI4B6liQNyI+6TJ8pudA3merXr1RoYr5c+5oI5ewuoFY1renjb4a3WB2DsnVqy5oY0zhW7zzTGjvd1kxWEYAEoJWFKxMYLa4oQJmBuA2VDtBfgOytJY36yQkAAAAASUVORK5CYII="
+          />
+        </p>
+
+        <div class="card card-detail-1">
+          <h3>Steamlined Workflows</h3>
+          <p>Automate repetitive tasks and focus on</p>
+          <p>high-impage work with our</p>
+          <p>powerful productivity features.</p>
+        </div>
+      </div>
+
+      <div class="box box2">
+        <p class="icon">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABEJJREFUWEftl1nIrlMUx3+nkDmOzEOGI6JwgSQKmWcH55hvKDLPw5UbmWUOyY25c5DMklCGSMqQmUyZQ+Yx9u+09tv+9vfs53lfVydZN+/3PWvtvf7PWv81PDNYyGTGQoaH/wSgmcDOwE7AxsCqwIoR6S+Bz4CXgSeAR4HvJsnCJBFaBjgPODb9LjKmkz+Bq4BzgR/HOTMuoP2AG4EVxrm0w+YL4CjggaHz4wA6G7iguugHYB5wL/BucvZJ6NcE1gNmA3OApapzpwKX94EaAnQNcFxxwefAxcB1wK8Db7tEpPeMZL9yYXtl4tXJrbN9gE4DLi0OGu6DgJ+Gwl7pl41o7lI8b0aqBWgP4H4YtYXLEilPbwAxAkeH7oaUpks67PRzBXBi6P4GdosqnGLeBci8f1gQ+Fbg8AYYK+9rYLHQ/x4t4PuG/W3AIaHz3FrAL6VtF6BzkoPzw+i1RNzNgL8aDkzhHZXuYODOhv2iifCvJP2GoT8rODky7wJkY1slLPYH7hngzJsJ1AZh81bhrHVsbgFYX6v1RWjLlNvnw8DeYRc231mWBPaOcs9Vtjwg55QHgW/j78WBfYH7gJ+LOwyC6bLjK1sAL2Z9HaGL0uEzQ9lVngdGxehA5/OD/BmcIPYCtBOkL2A/0q6Ua6Ml+OxCQJoskBqQ82e70G2T5tUz1UU2tWYPaeTI6jql0ulDX8rjwI4tQG8D64dy6UbP2Sje2ij4d5e8HlGR3HKsluWK1L5R3lNHyHK1lLui1+X4sDQqbqkUtghbRZ/YJn4LA7cBedjp1Imc54+/JRm7HJShz/rtU9qfHABk9J2Hij5zEKZx6D1g3TBcB/hg4GKJW0/wPYPwfUelhfRQHM6ZJtMAPQdsFYb7RMn2XXx9MTaynePjmIEXOaCovKcTsbdtpawsRyf9CT0Xu6R9lWaUBP007Gxy9qGVAJezlrgtZNAucCe1AO0KPBzKoa5b2h4aLSSTeffini5Q7yTizwqFJW/pL5C6ymS/b2hDU6YYVzffHEPXppirxLM2RyvviEZ4XEMeCZ2DVUKPZmXXLHN9yKvG+9EjcolmHw7Jb9K+ZLU4wS1/xQgZLSvH0fBHBcqlTTKvEc+ndOmuCPnMhcrqym99ezgp73bo3hUPyvS44zwUzyXu3RUgB7X7uSL/1q5bS2tBM6xyKesdGW6QedAK+sjYbazKHHKJbqX6EjcBeS/qWtD08Vid1r4V1jXTTTGLb+7qMNbnTHGua4W1qqyuaTLpku/XhetqTkuDt6PHriq2kswZFf5/fOvgECDPuY64lpTyVIyHZ4GPUvo+jvT6GeRaujWwA+DGUIp3de3cI5txAGksEa9OH4urD4WkoRewUXFZ65VxAXmJhLW3+OWw6dDFoX8puGI7aO3lU66aBFB50NHgEN08+tQm4dCPgleBF+ITx9KeSP4toImcTGL8P6ChaP0DJL3KJZ+FGIAAAAAASUVORK5CYII="
+          />
+        </p>
+        <div class="card card-detail-2">
+          <h3>Blazing Fast Performance</h3>
+          <p>Experience lightning-fast Performance and</p>
+          <p>instant responsiveness with out cutting-</p>
+          <p>edge technology.</p>
+        </div>
+      </div>
+
+      <div class="box box3">
+        <p class="icon">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABCRJREFUWEfdmHnI5lMUxz8j2bfEZBlL9swkyx9GlCIRyjpKdkOWZGdEyBDZUpQlImtmMKSx/oF/rMmS0hiy79NEiGxxP9O5T9d9f7/n+f3m7a03p96e97n3nHu+99xzv+fcZwqTTKZMMjz8bwDtARwJ7AqsH38GewnwPfA68CDwat8T6BOhVYBTgbOBzTo6+hi4CbgT+L2LTVdAJwLXAut1WbRBx6idAzw0yr4LoOuB86uFfgAeBZ4AjMKXMT8N2Ao4GDgMWKeyuwy4chioYYCcuwc4rljgC+Bq4C7grxG7XRk4GbgoHdnGhe7NwFlttsMA3RY5k20fAY4G/hgV9mp+NWAecGAxPhe4vGmdNkDnAjcWBtcBc3oCKdX1c2u1wWPS8T5Qr9kEaO0U6q+A1UP5MeDwcYDJpisATycq2DcGvgE2ryPeBOgKwORTTNjtu17ZDqDXAj5M0ZoauqcDpsZAakArAd8Vt+NQ4PEOjvqoyGUZxGcRpVZABwALY/Z9YHrlSUJUx8i9MCTB3dhewBbAU4COs6wIeFyZ03ZKNPFOnqwjdHcyPiEmrwIuLRbaAPgaBvXvjipJS+y3J6enxMA/iSbkJ22ztPqpAb0L7BBWuwOvFIuUoXZ4TLgL3U+r8nIaIMgss1Juzo8vzxeJPqbae7s2CkVvQBnq/VIxfaZY1AI6syV5XovCm6d3AxzLsiPwdlNq1BH6NdWsVUNRQvutWMS8cJcSnDkkuXmNm2T/OO4tIydnJyL06LJYUiw/yk+pAEs1y6QG9DOwRsytmWrYLy0OxzusD30pfkoHjYAWpz5m65jz86Pxem6x3yb1Ux/EnJ/btQF6CdgzJveOqz0RmPYBTGZF+tBXY4TKVsP/L2xAYz5Inpmv2gCb8Eb5/gYFmzYbPeWaxGcXtwFykdx2SvGGNouJKH8cAvwZn5Jek0gdzwIbJhpZALiJHwvFTwqG3gV4qw2QSW6zla++fGEjpmwavbIEqXhrdOZuX44xe2yJVQAysmLS7lzko1X+vpgTmGw+kKbianfocSl1cZ2RcuzFhlZ2URTMdatw6VCasAwpUokXxcgpI4urSvLQ54VTG7MjCkfbAvdWxFfhWPbVqNnQydqKm3+yaNS+DTb/T8PX1qCdFC+F7Kiua477FDKf7G9yEX4PeC59dxNvVChvAc4oxo5qavqHtbB2iRcUC3juAjWh+4jPp4dTqTioMLJou8kxMurVYTNvgmYx/JYMwf09AlVbk+8lsEVulFGANHInl1TWS6Nx8wYK0pvpWpsE99jyGpFBSQh7I37DsI10AaT98XHzlvehaBdxZtDE0MB2BeQi5oLvrPN6PKWtU+aiRzzqHTe4in0SVF03YfN2bBBe/rFBovTHBttT2d5n85vLs3hfmwnV73NkEwokLz7pAP0LA1e8JQ2nlR0AAAAASUVORK5CYII="
+          />
+        </p>
+        <div class="card card-detail-3">
+          <h3>Intuitive Interface</h3>
+          <p>Our user-friendly itnerface make it easy</p>
+          <p>for anyone to streamline their workflow.</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
