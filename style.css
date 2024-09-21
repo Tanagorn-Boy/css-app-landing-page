@@ -156,3 +156,110 @@ body {
   margin-top: 20px;
   font-family: "Inter", sans-serif;
 }
+/* >>>>>>  Section form <<<<<<<  */
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6fb;
+}
+
+.innerbox-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1199px;
+  height: 666px;
+  margin-top: 140px;
+  color: #5f5f76;
+  background-color: #ffffff;
+}
+
+.Head-form {
+  margin: 68 px;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 68px;
+  color: #1a1a2c;
+}
+
+.Form-item input {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 48px;
+  font-size: 16px;
+}
+
+#fullname {
+  width: 589px;
+  height: 48px;
+  border: 1px solid #e0e0ed;
+  border-radius: 12px;
+  background: #ffffff;
+  font-size: 16;
+}
+
+#email {
+  width: 589px;
+  height: 48px;
+  border: 1px solid #e0e0ed;
+  border-radius: 12px;
+  background: #ffffff;
+}
+#message {
+  width: 589px;
+  height: 120px;
+  border: 1px solid #e0e0ed;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+#message::placeholder {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.Submit-form {
+  width: 589px;
+  height: 56px;
+  padding: 16px 36px 16px 36px;
+  font-size: 16px;
+  border-radius: 16px;
+  color: white;
+  background-color: #1a1a2c;
+}
+
+/* >>>>>>>>>Footter<<<<<<<<<< */
+.Footer-bar {
+  /* กล่องบาร์ล่าง */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 80px;
+}
+
+.CopyrightBar-footer {
+  color: #5f5f76;
+}
+
+.End-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100px;
+  height: 100px;
+  gap: 37px;
+  color: #1a1a2c;
+  font-weight: bold;
+}
+
+.End-bar a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.End-bar a:hover {
+  color: #5e44ff;
+  text-decoration: underline;
+}
